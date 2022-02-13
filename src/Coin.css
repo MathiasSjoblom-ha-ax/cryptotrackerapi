@@ -1,0 +1,66 @@
+.coin-container {
+  text-align: center;
+  margin-bottom: 5px;
+  border-bottom: 1px solid black;
+  border-width: 1px;
+  flex-shrink: 3;
+  margin-right: 0px;
+  background: #e0e0e0;
+  background-image: -webkit-linear-gradient(top, #e0e0e0, #ffffff);
+  background-image: -moz-linear-gradient(top, #e0e0e0, #ffffff);
+  background-image: -ms-linear-gradient(top, #e0e0e0, #ffffff);
+  background-image: -o-linear-gradient(top, #e0e0e0, #ffffff);
+  background-image: linear-gradient(to bottom, #e0e0e0, #ffffff);
+}
+
+.coin-container:hover {
+  background: #e0e0e0;
+  background-image: -webkit-linear-gradient(top, #e0e0e0, #cccccc);
+  background-image: -moz-linear-gradient(top, #e0e0e0, #cccccc);
+  background-image: -ms-linear-gradient(top, #e0e0e0, #cccccc);
+  background-image: -o-linear-gradient(top, #e0e0e0, #cccccc);
+  background-image: linear-gradient(to bottom, #e0e0e0, #cccccc);
+  text-decoration: none;
+}
+
+.coin-rank {
+  margin-left: 15px;
+}
+
+.coin-image {
+  height: 40px;
+  margin-left: 100px;
+}
+
+.coin-NS {
+  display: grid;
+  margin-left: -100px;
+}
+
+.coin-row {
+  position:relative;
+  align-items: center;
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.coin {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.coin-price {
+    margin-left: -75px;
+}
+
+.coin-volume {
+
+}
+
+.coin-highest {
+ margin-right: 50px;
+}
+
+.coin-lowest {
+
+}
